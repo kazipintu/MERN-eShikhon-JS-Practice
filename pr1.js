@@ -201,10 +201,10 @@ const savedMoney = 5000000;
 const ownHomeKolkata = false;
 const homeDistrict = false;
 
-if (jobHolder == true && savedMoney >= 400000 || ownHomeKolkata == true && homeDistrict == true){
+if (jobHolder == true && savedMoney >= 400000 || ownHomeKolkata == true && homeDistrict == true) {
   console.log("Marriage is allowed");
 }
-else{
+else {
   console.log("Proposal is rejected");
 }
 
