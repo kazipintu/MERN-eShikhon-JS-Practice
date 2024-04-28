@@ -334,6 +334,10 @@ console.log(resultMyFavTagNumber);
 console.log(resultMyFavMaxNumber);
 
 
+
+
+
+
 /*There is an array of object, use Function 
 to check if there is a red color product in the object, 
 then return and show by console.log, else show
