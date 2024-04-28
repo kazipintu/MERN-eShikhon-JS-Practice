@@ -285,8 +285,53 @@ function myFavFlower(flower) {
 
 const flowers = ['lotus','rose', 'tube rose', 'jasmine', 'bella', 'joba'];
 const resultMyFavFlower = myFavFlower(flowers);
-console.log(resultMyFavFlower);
+//console.log(resultMyFavFlower);
 
+
+
+
+function myFavSchoolClass(classes) {
+  for (let i = 0; i < classes.length; i++) {
+    const element = classes[i];
+    if (classes[i] == 10) {
+      return 10;
+    }
+  }
+  return 'not available'
+}
+
+const schoolClass = [1, 2, 3, 4, 5, 6, 7, 8, 11, 12];
+const resultMyFavSchoolClass = myFavSchoolClass (schoolClass);
+//console.log(resultMyFavSchoolClass);
+
+
+function myFavTagNumber(tagNumber) {
+  let minimum = tagNumber[0];
+  for (let i = 0; i < tagNumber.length; i++) {
+    const element = tagNumber[i];
+    if (element < minimum) {
+      minimum = element;
+    }   
+  }
+  return minimum;
+}
+
+function myFavMaxNumber(maxNumber) {
+  let maximum = maxNumber[0];
+  for (let i = 0; i < maxNumber.length; i++) {
+    const element = maxNumber[i];
+    if (element > maximum) {
+      maximum = element;
+    }
+  }
+  return maximum;
+}
+
+const tagNumbers = [34, 45, 43, 78, -567, 92, 23, 456, 76, 908]
+const resultMyFavTagNumber = myFavTagNumber(tagNumbers);
+const resultMyFavMaxNumber = myFavMaxNumber (tagNumbers);
+console.log(resultMyFavTagNumber);
+console.log(resultMyFavMaxNumber);
 
 
 /*There is an array of object, use Function 
