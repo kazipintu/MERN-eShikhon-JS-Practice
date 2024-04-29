@@ -330,13 +330,45 @@ function myFavMaxNumber(maxNumber) {
 const tagNumbers = [34, 45, 43, 78, -567, 92, 23, 456, 76, 908]
 const resultMyFavTagNumber = myFavTagNumber(tagNumbers);
 const resultMyFavMaxNumber = myFavMaxNumber (tagNumbers);
-console.log(resultMyFavTagNumber);
-console.log(resultMyFavMaxNumber);
+//console.log(resultMyFavTagNumber);
+//console.log(resultMyFavMaxNumber);
 
 
 
 
 
+
+
+
+function myMinTripDistance(minDistance) {
+  let distance = minDistance[0];
+  for (let i = 0; i < minDistance.length; i++) {
+    const element = minDistance[i];
+    if (element < distance) {
+      distance = element
+    }
+  }
+  return distance;
+}
+
+
+function myTripDistance(maxDistance) {
+  
+  let distance = maxDistance[0];
+  for (let i = 0; i < maxDistance.length; i++) {
+    const element = maxDistance[i];
+     if (element > distance) {
+      distance = element;
+     }
+  }
+  return distance;
+}
+
+const distances = [23, 45, 67, -90, 56, 74, 3, 21, 56];
+const resultMyTripDistance = myTripDistance (distances);
+const resultMyMinTripDistance = myMinTripDistance (distances);
+console.log(resultMyTripDistance);
+console.log(resultMyMinTripDistance);
 
 /*There is an array of object, use Function 
 to check if there is a red color product in the object, 
