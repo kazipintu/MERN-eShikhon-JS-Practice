@@ -1,46 +1,46 @@
-// let inches = 144;
-// let feet = inches/12;
+let inches = 144;
+let feet = inches/12;
 // console.log(feet);
 
-// let inches = 1442;
-// let feet = inches/12;
+let inches = 1442;
+let feet = inches/12;
 // console.log(feet);
 
-// let inches = 1442;
-// let feet = inches/12;
+let inches = 1442;
+let feet = inches/12;
 // console.log(feet.toFixed(2));
 
 
-// function inchesToFeet(inches){
-//   const feet = inches/12;
-//   return feet
-// }
+function inchesToFeet(inches){
+  const feet = inches/12;
+  return feet
+}
 
-// const result = inchesToFeet(2345);
+const result = inchesToFeet(2345);
 // console.log(result.toFixed(2));
 
-// const maa = inchesToFeet(1402);
+const maa = inchesToFeet(1402);
 // console.log(maa.toFixed(3));
 
-// const baba = inchesToFeet(1305);
+const baba = inchesToFeet(1305);
 // console.log(baba.toFixed(2));
 
-// const vai = inchesToFeet(5201);
+const vai = inchesToFeet(5201);
 // console.log(parseFloat(vai));
 
-// const apu = inchesToFeet(76054);
+const apu = inchesToFeet(76054);
 // console.log(parseInt(apu));
 
-// const num1 = 44;
-// const remainder = num1 % 2;
+const num1 = 44;
+const remainder = num1 % 2;
 // console.log(remainder == 0);
 
-// const num1 = 45;
-// // const remainder = num1 % 2;
+const num1 = 45;
+const remainder = num1 % 2;
 // console.log(num1 % 2 == 0);
 
 
-/* function whetherEvenOrOdd(numb) {
+function whetherEvenOrOdd(numb) {
   if (numb == 0) {
     return "Not a natural number";
   }
@@ -53,24 +53,24 @@
 }
 
 const mama = whetherEvenOrOdd(-325)
-console.log(mama); */
+// console.log(mama);
 
-// const result = whetherEvenOrOdd(5624)
+const result = whetherEvenOrOdd(5624)
 // console.log(result);
 
-// const maa = whetherEvenOrOdd(15264)
+const maa = whetherEvenOrOdd(15264)
 // console.log(maa);
 
-// const baba = whetherEvenOrOdd(15635)
+const baba = whetherEvenOrOdd(15635)
 // console.log(baba);
 
-// const vai = whetherEvenOrOdd(0)
+const vai = whetherEvenOrOdd(0)
 // console.log(vai);
 
-// const apu = whetherEvenOrOdd(-35)
+const apu = whetherEvenOrOdd(-35)
 // console.log(vai);
 
-/* function isLeapYear(year){
+function isLeapYear(year){
   if((year > 0 && year % 4 == 0 && year % 100 !== 0) || (year % 400 == 0) ){
     return "Leap Year"
   }
@@ -78,25 +78,24 @@ console.log(mama); */
 }
 
 const time = isLeapYear (1300);
-console.log(time);
+// console.log(time);
 
 const asif = isLeapYear(1500);
-console.log(asif); */
+// console.log(asif);
 
-// factorial
+factorial
 
-// 3! = 3 * 2 * 1
-// 4!= 4 * 3 * 2 * 1
-// 5! = 5 * 4 * 3 * 2 * 1
+3! = 3 * 2 * 1
+4!= 4 * 3 * 2 * 1
+5! = 5 * 4 * 3 * 2 * 1
 
-/* let factorial = 1;
+let factorial = 1;
 for(let i = 1; i <= 7; i ++ ){
   factorial = factorial * i;
 }
+//console.log(factorial); */
 
-console.log(factorial); */
-
-/* function calculateFactorial(number){
+function calculateFactorial(number){
   let factorial = 1;
   for(let i = 1; i <= number; i++){
     factorial = factorial * i;  
@@ -105,9 +104,9 @@ console.log(factorial); */
 }
 
 const alo = calculateFactorial(7);
-console.log(alo); */
+//console.log(alo);
 
-/* function determineFactorial(number) {
+function determineFactorial(number) {
   let factorial = 1;
   let i = 1;
   while (i <= number) {
@@ -118,4 +117,4 @@ console.log(alo); */
 }
 
 const chand = determineFactorial(8);
-console.log(chand); */
+//console.log(chand);

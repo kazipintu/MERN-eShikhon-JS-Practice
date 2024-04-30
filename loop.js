@@ -71,38 +71,39 @@
   
 // }
 
-// index=1;
-// while (index <= 20) {
-//   console.log(index);
-//   index++;
-// }
+index=1;
+while (index <= 20) {
+  // console.log(index);
+  index++;
+}
 
-// for(let index=1; index <= 20; index++){
-//   console.log(index);
-// }
+for(let index=1; index <= 20; index++){
+  // console.log(index);
+}
 
-// for(let i=0; i <= 20; i++){
-//   console.log(i);
-// }
+for(let i=0; i <= 20; i++){
+  // console.log(i);
+}
 
-// for(let i=1; i <= 20; i += 2){
-//   console.log(i);
-// }
+for(let i=1; i <= 20; i += 2){
+  // console.log(i);
+}
 
-// for(let i=2; i <= 20; i += 2){
-//   console.log(i);
-// }
+for(let i=2; i <= 20; i += 2){
+  // console.log(i);
+}
 
 const student = ['one', 'two', 'three', 'four', 'five', 'six'];
 student.unshift ('nine', 'ten');
-student.shift();
-student.shift();
-student.shift();
-// student.push('nine', 'ten');
 // console.log(student);
+student.shift();
+student.shift();
+student.shift();
+student.push('nine', 'ten');
+//console.log(student);
 
 for(let i=0; i< student.length; i++){
   let element = student[i];
-  console.log(element);
+  //console.log(element);
 }
 

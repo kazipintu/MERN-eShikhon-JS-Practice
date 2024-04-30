@@ -1,5 +1,5 @@
 const myNumber = -9;
-const posNumb = Math.abs (myNumber);
+const posNumb = Math.abs(myNumber);
 // console.log(Math.abs (myNumber));
 //console.log(posNumb);
 
@@ -13,7 +13,7 @@ const OutNum2 = Math.floor(Num2);
 
 // console.log(OutNum1, OutNum2);
 
-const RanNum  = Math.random();
+const RanNum = Math.random();
 // console.log(RanNum);
 
 const RanNum2 = Math.random() * 6;
@@ -35,14 +35,14 @@ num12 = xNum
 // console.log(num10, num12);
 
 
- let xxNum = 12;
- let yyNum = 15;
+let xxNum = 12;
+let yyNum = 15;
 
 //  console.log(xxNum, yyNum);
 
- let zzNum = xxNum;  //zzNum  = 12
- xxNum = yyNum;  //xxNum = 15
- yyNum = zzNum;  //yyNum = 12
+let zzNum = xxNum;  //zzNum  = 12
+xxNum = yyNum;  //xxNum = 15
+yyNum = zzNum;  //yyNum = 12
 
 //  console.log(xxNum, yyNum);
 
@@ -178,11 +178,11 @@ console.log(fifthColor);*/
 function largestNumber(ages) {
   //console.log(ages);
   let largest = 0;
-  for ( let i = 0; i < ages.length; i ++ ){
+  for (let i = 0; i < ages.length; i++) {
     const element = ages[i]
     //console.log(element);
     if (element > largest) {
-     largest = element;
+      largest = element;
     }
   }
 
@@ -196,13 +196,13 @@ const result = largestNumber(ageArray1);
 
 
 function findMyColor(color) {
-  for (let i = 0; i < color.length; i ++){
+  for (let i = 0; i < color.length; i++) {
     const value = color[i];
     if (value == 'green') {
       return value;
-    } 
+    }
   }
-  return "not available"; 
+  return "not available";
 }
 
 const mamaColor = ['red', 'green', 'blue', 'purple', 'orange', 'violet', 'indigo', 'yellow'];
@@ -212,8 +212,8 @@ const resultColor1 = findMyColor(mamaColor)
 
 function findMyCar(car) {
 
-  for (let i = 0; i < car.length; i ++){
-    if (car[i] =='chevy'){
+  for (let i = 0; i < car.length; i++) {
+    if (car[i] == 'chevy') {
       return 'chevy';
     }
   }
@@ -226,7 +226,7 @@ const carResult = findMyCar(favCars);
 //console.log(carResult);
 
 function myFavSpot(location) {
-  for ( i = 0; i < location.length; i ++){
+  for (i = 0; i < location.length; i++) {
     if (location[i] == 'london') {
       return 'london';
     }
@@ -235,8 +235,8 @@ function myFavSpot(location) {
 }
 
 
-const myFavSpots= ['digha', 'sundarbans', 'gangtok', 'darjeeling', 'mirik', 'kashmir', 'sandakfu' ]; 
-const resultMyFavSpot = myFavSpot (myFavSpots);
+const myFavSpots = ['digha', 'sundarbans', 'gangtok', 'darjeeling', 'mirik', 'kashmir', 'sandakfu'];
+const resultMyFavSpot = myFavSpot(myFavSpots);
 //console.log(resultMyFavSpot);
 
 
@@ -246,7 +246,7 @@ function myFavSinger(singer) {
     if (singer[i] == 'rafi') {
       return 'rafi';
     }
-    
+
   }
 
   return "others";
@@ -254,7 +254,7 @@ function myFavSinger(singer) {
 
 
 const singers = ['rafi', 'kishore', 'lata', 'mukesh', 'arijit', 'shreya'];
-const resultMyFavSinger = myFavSinger (singers);
+const resultMyFavSinger = myFavSinger(singers);
 //console.log(resultMyFavSinger);
 
 
@@ -263,13 +263,13 @@ function myFavFruit(fruit) {
     const element = fruit[i];
     if (fruit[i] == 'peach') {
       return element;
-    }  
+    }
   }
   return "other";
 }
 
 const fruits = ['mango', 'orange', 'apple', 'watemelon', 'pineaple'];
-const resultMyFavFruit = myFavFruit (fruits);
+const resultMyFavFruit = myFavFruit(fruits);
 //console.log(resultMyFavFruit);
 
 
@@ -283,7 +283,7 @@ function myFavFlower(flower) {
   return "not available";
 }
 
-const flowers = ['lotus','rose', 'tube rose', 'jasmine', 'bella', 'joba'];
+const flowers = ['lotus', 'rose', 'tube rose', 'jasmine', 'bella', 'joba'];
 const resultMyFavFlower = myFavFlower(flowers);
 //console.log(resultMyFavFlower);
 
@@ -301,7 +301,7 @@ function myFavSchoolClass(classes) {
 }
 
 const schoolClass = [1, 2, 3, 4, 5, 6, 7, 8, 11, 12];
-const resultMyFavSchoolClass = myFavSchoolClass (schoolClass);
+const resultMyFavSchoolClass = myFavSchoolClass(schoolClass);
 //console.log(resultMyFavSchoolClass);
 
 
@@ -311,7 +311,7 @@ function myFavTagNumber(tagNumber) {
     const element = tagNumber[i];
     if (element < minimum) {
       minimum = element;
-    }   
+    }
   }
   return minimum;
 }
@@ -329,15 +329,9 @@ function myFavMaxNumber(maxNumber) {
 
 const tagNumbers = [34, 45, 43, 78, -567, 92, 23, 456, 76, 908]
 const resultMyFavTagNumber = myFavTagNumber(tagNumbers);
-const resultMyFavMaxNumber = myFavMaxNumber (tagNumbers);
+const resultMyFavMaxNumber = myFavMaxNumber(tagNumbers);
 //console.log(resultMyFavTagNumber);
 //console.log(resultMyFavMaxNumber);
-
-
-
-
-
-
 
 
 function myMinTripDistance(minDistance) {
@@ -353,48 +347,84 @@ function myMinTripDistance(minDistance) {
 
 
 function myTripDistance(maxDistance) {
-  
+
   let distance = maxDistance[0];
   for (let i = 0; i < maxDistance.length; i++) {
     const element = maxDistance[i];
-     if (element > distance) {
+    if (element > distance) {
       distance = element;
-     }
+    }
   }
   return distance;
 }
 
 const distances = [23, 45, 67, -90, 56, 74, 3, 21, 56];
-const resultMyTripDistance = myTripDistance (distances);
-const resultMyMinTripDistance = myMinTripDistance (distances);
-console.log(resultMyTripDistance);
-console.log(resultMyMinTripDistance);
+const resultMyTripDistance = myTripDistance(distances);
+const resultMyMinTripDistance = myMinTripDistance(distances);
+// console.log(resultMyTripDistance);
+// console.log(resultMyMinTripDistance);
 
 /*There is an array of object, use Function 
 to check if there is a red color product in the object, 
 then return and show by console.log, else show
 there is no product in it.*/
 
-// var productArray = [ 
-//   {mobile:'samsung', color:'green', size: '720p'},
-//   {mobile:'iphone', color:'blue', size: '350p'},
-//   {mobile:'redmi', color:'white', size: '540p'},
-//   {mobile:'nokia', color:'red', size: '1080p'},
-//   {mobile:'huawei', color:'black', size: '720p'}
-// ];
+var productArray = [
+  { mobile: 'samsung', color: 'green', size: '720p' },
+  { mobile: 'iphone', color: 'blue', size: '350p' },
+  { mobile: 'redmi', color: 'white', size: '540p' },
+  { mobile: 'nokia', color: 'red', size: '1080p' },
+  { mobile: 'huawei', color: 'black', size: '720p' }
+];
 
-// function nameRedMobile(products) {
-  
-//   var empty = [];
-//   for (const productArray of products) {
-//     if (productArray.color == 'red'){
-//         empty.push (product);
-//     }  
-//   }
-//   return empty;
-// }
+function nameRedMobile(products) {
 
-// const redPhone  = nameRedMobile(productArray);
+  var empty = [];
+  for (const productArray of products) {
+    if (productArray.color == 'red') {
+      empty.push(product);
+    }
+  }
+  return empty;
+}
+
+const redPhone  = nameRedMobile(productArray);
 // console.log(redPhone);
 
 
+const nameSports = ['football', 'cricket', 'volleyball', 'soccer', 'tennis', 'football', 'cricket', 'badminton', 'swimming', 'soccer'];
+
+
+function findDuplicateSports(sport) {
+  //console.log(sport);
+  /*for (let i = 0; i < sport.length; i++) {
+    const element = sport[i];
+    console.log(element);*/
+  const unique = [];
+  for (const element of sport) {
+    // console.log(element);
+
+    if (unique.indexOf(element) == -1) {
+      unique.push(element);
+    }
+  }
+  return unique
+}
+findDuplicateSports(nameSports);
+//console.log(findDuplicateSports(nameSports));
+
+
+const tourDistances = [23, 45, 67, -90, 56, 74, 3, 21, 56];
+
+function myTourDistance(kilos) {
+
+  let coverDistance = [];
+  for (let i = 0; i < kilos.length; i++) {
+    const element = kilos[i];
+    console.log(element);
+
+  }
+}
+
+
+myTourDistance(tourDistances);

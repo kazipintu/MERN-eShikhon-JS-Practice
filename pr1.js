@@ -77,26 +77,26 @@ var total2 = shirtSoll + shoeBat
 var color = '150';
 var water = 20;
 var convertColor = parseInt(color);
-// var total3 = color + water;
+var total3 = color + water;
 var total3 = water + convertColor;
 // console.log(total3)
 // console.log(total3)
-// var convertColor = parseInt(color);
+var convertColor = parseInt(color);
 
 var fruit1 = '130';
 var fruit2 = 20;
-// var fruits = fruit2 + fruit1;
+var fruits = fruit2 + fruit1;
 // console.log((parseInt(fruit1)) + fruit2)
 // console.log(parseFloat(fruit2))
 
 var pant = 130.03;
 var belt = 170.06666667;
 
-// mathroundedBelt = Math.round(belt);
+mathroundedBelt = Math.round(belt);
 // console.log(mathroundedBelt)
 // console.log(pant + Math.round(belt))
 
-// var floatBelt = parseFloat(belt + toFixed(2));
+var floatBelt = parseFloat(belt + toFixed(2));
 // console.log(floatBelt)
 
 var first = 0.6;
@@ -172,29 +172,29 @@ student.shift()
 // const iPhone = 1000;
 // const fund = 999;
 
-// if (fund > iPhone){
-//   console.log('You can purchase');
-// }
-// else{
-//   console.log('Lack of fund');
-// };
+if (fund > iPhone){
+  //console.log('You can purchase');
+}
+else{
+  //console.log('Lack of fund');
+};
 
-// if (fund > iPhone == true){
-//   console.log('You can purchase');
-// }
-// else{
-//   console.log('Lack of fund');
-// };
+if (fund > iPhone == true){
+  //console.log('You can purchase');
+}
+else{
+  //console.log('Lack of fund');
+};
 
-// const iPhone = 1000;
-// const fund = 1999;
+const iPhone = 1000;
+const fund = 1999;
 
-// if (fund > iPhone == true){
-//   console.log('You can purchase');
-// }
-// else{
-//   console.log('Lack of fund');
-// };
+if (fund > iPhone == true){
+  //console.log('You can purchase');
+}
+else{
+  //console.log('Lack of fund');
+};
 
 const jobHolder = true;
 const savedMoney = 5000000;
@@ -202,10 +202,10 @@ const ownHomeKolkata = false;
 const homeDistrict = false;
 
 if (jobHolder == true && savedMoney >= 400000 || ownHomeKolkata == true && homeDistrict == true) {
-  console.log("Marriage is allowed");
+  //console.log("Marriage is allowed");
 }
 else {
-  console.log("Proposal is rejected");
+  //console.log("Proposal is rejected");
 }
 
 
