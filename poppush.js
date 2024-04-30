@@ -1,4 +1,5 @@
 // number type variable
+
 var number = 786;
 // console.log(number)
 
@@ -6,21 +7,24 @@ number = 555;
 // console.log(number)
 
 // string type variable
+
 var address1 = 'baruipur'
 var address2 = "kolkata"
 // console.log(address1)
 // console.log(address2)
+
 var number = 786;
 
 // Boolean type variable
 var todaySunny = true;
+
 // in JavaScript we write variables in camel case
 
 // undefined type variable
 var money = undefined;
 
 // numm type variable
-var peopler = null;
+var people = null;
 
 var eggPrice = 7;
 var onionPrice = 23;
@@ -111,6 +115,7 @@ var result = first + second;
 // function
 // array
 // const : variables, value/data of which may never change
+
 const address = 'kolkata';
 const student = ['one', 'two', 'three', 'four', 99, true, null, 'five', 'six', 'seven'];
 // console.log(student)
@@ -131,7 +136,7 @@ student.push('master', 52, null)
 // console.log(student[10])
 // console.log(student)
 // console.log(student.length)4
-// student[12] = 'amr'
+student[12] = 'amr'
 // console.log(student)
 // console.log(student[12])
 // console.log(student)
@@ -144,68 +149,26 @@ student.pop()
 student.pop()
 student.pop()
 student.pop()
-// student.pop()
-// student.pop()
-// student.pop()
-// student.pop()
-// student.pop()
-// student.pop()
-// student.pop()
-// student.pop()
+student.pop()
+student.pop()
+student.pop()
+student.pop()
+student.pop()
+student.pop()
+student.pop()
+student.pop()
 // console.log(student)
+
 // after popping all data, the array becomes empty
 
-// student.unshift('nasir', 'basheer')
+student.unshift('nasir', 'basheer')
 // console.log(student)
 student.unshift('basheer', 'nasir')
 // console.log(student)
 student.shift()
 // console.log(student)
 
-// console.log(5 >6);
-// console.log(5 <6);
-// console.log(5 == 6);
-// console.log(5 != 6);
-// console.log(5 >= 6);
-// console.log(5 <= 6);
-
-// const iPhone = 1000;
-// const fund = 999;
-
-if (fund > iPhone){
-  //console.log('You can purchase');
-}
-else{
-  //console.log('Lack of fund');
-};
-
-if (fund > iPhone == true){
-  //console.log('You can purchase');
-}
-else{
-  //console.log('Lack of fund');
-};
-
-const iPhone = 1000;
-const fund = 1999;
-
-if (fund > iPhone == true){
-  //console.log('You can purchase');
-}
-else{
-  //console.log('Lack of fund');
-};
-
-const jobHolder = true;
-const savedMoney = 5000000;
-const ownHomeKolkata = false;
-const homeDistrict = false;
-
-if (jobHolder == true && savedMoney >= 400000 || ownHomeKolkata == true && homeDistrict == true) {
-  //console.log("Marriage is allowed");
-}
-else {
-  //console.log("Proposal is rejected");
-}
+const arbit = ['one', 'two', 'three', 'four', 99, true, null, 'five', 'six', 'seven', 100, 'ten'];
+console.log(arbit.indexOf('rabbit'));
 
 

@@ -388,7 +388,7 @@ function nameRedMobile(products) {
   return empty;
 }
 
-const redPhone  = nameRedMobile(productArray);
+const redPhone = nameRedMobile(productArray);
 // console.log(redPhone);
 
 
@@ -414,17 +414,17 @@ findDuplicateSports(nameSports);
 //console.log(findDuplicateSports(nameSports));
 
 
-const tourDistances = [23, 45, 67, -90, 56, 74, 3, 21, 56];
-
 function myTourDistance(kilos) {
-
   let coverDistance = [];
   for (let i = 0; i < kilos.length; i++) {
     const element = kilos[i];
-    console.log(element);
-
+    if (coverDistance.indexOf(element) == -1) {
+      coverDistance.push(element);
+    }
   }
+  return coverDistance;
 }
 
-
+const tourDistances = [23, 45, 67, -90, 56, 74, 3, 21, 36, -90, 67, 56];
 myTourDistance(tourDistances);
+console.log(myTourDistance(tourDistances));
