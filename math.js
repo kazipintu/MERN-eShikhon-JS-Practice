@@ -392,28 +392,6 @@ const redPhone = nameRedMobile(productArray);
 // console.log(redPhone);
 
 
-const nameSports = ['football', 'cricket', 'volleyball', 'soccer', 'tennis', 'football', 'cricket', 'badminton', 'swimming', 'soccer'];
-
-
-function findDuplicateSports(sport) {
-  //console.log(sport);
-  /*for (let i = 0; i < sport.length; i++) {
-    const element = sport[i];
-    console.log(element);*/
-  const unique = [];
-  for (const element of sport) {
-    // console.log(element);
-
-    if (unique.indexOf(element) == -1) {
-      unique.push(element);
-    }
-  }
-  return unique
-}
-findDuplicateSports(nameSports);
-//console.log(findDuplicateSports(nameSports));
-
-
 function myTourDistance(kilos) {
   let coverDistance = [];
   for (let i = 0; i < kilos.length; i++) {
